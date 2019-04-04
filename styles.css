@@ -4,6 +4,34 @@ div {
 nav {
     background-color: #75e2e6;
 }
+
+.nav-container{
+    float: right;
+    background-color:#75e2e6;
+    margin: 20px;
+    
+}
+
+.nav-container a{
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    
+
+    }
+
+
+
+
+figcaption{
+    text-align: center;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
 body{
     background-color: #ffffff;
     text-decoration-color: #000000;
@@ -20,6 +48,7 @@ figcaption{
     background-image: url("https://github.com/saykaren/dog_party/blob/master/images/park.jpg?raw=true");
     background-size: 900px;
     height: 600px;
+    align-content: center;
 }
 
 main{
@@ -32,4 +61,6 @@ footer{
     color: #ffffff;
     font-size: 16px;
     text-align: center;
+    padding: 70px;
+    float: center;
 }
