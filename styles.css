@@ -1,3 +1,35 @@
 div {
     background-color: blue;
 }
+nav {
+    background-color: #75e2e6;
+}
+body{
+    background-color: #ffffff;
+    text-decoration-color: #000000;
+    
+}
+table{
+    width: 100%;
+}
+th{
+    text-align: center;
+}
+
+figcaption{
+    background-image: url("https://github.com/saykaren/dog_party/blob/master/images/park.jpg?raw=true");
+    background-size: 900px;
+    height: 600px;
+}
+
+main{
+    background-color: #ffffff;
+    column-count: 3;
+}
+
+footer{
+    background-color: #048eaa;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
