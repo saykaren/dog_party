@@ -6,6 +6,8 @@ nav {
 .nav-container{
     float: right;
     background-color:#75e2e6;
+    padding-top: 15px;
+    overflow: hidden;
     
     
 }
@@ -15,7 +17,12 @@ nav {
     margin: 10px;
         }
 
-
+/*class added to navbar with javascript*/
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
 
 /*Hero section of website with dog and background*/ 
 figcaption{
@@ -26,10 +33,18 @@ figcaption{
     background-position: center;
     background-size: 100% 100%;
     height: 400px;
-    
-}
+    }
+
+
+/*A site area*/
 #header-text{
-    
+    font-size: 28px;
+    padding-top: 15px;
+    text-shadow: 2px 2px #000000;
+}
+/*form to put in name along with button*/
+#dogForm{
+    padding-top: 25px;
 }
 
 /*main header picture of dog*/ 
@@ -45,10 +60,20 @@ a{
 
 }
 
+#dog_name{
+    
+}
+/*input field*/
+#name {
+    width: 270px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+/*name this dog submit button*/
 #submit{
     background-color: #75e2e6;
-    width: 250px;
-    height: 40px;
+    width: 270px;
+    height: 30px;
 
 }
 body{
@@ -65,14 +90,21 @@ body{
     padding: 5px;
 }
 .column{
-    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    
 }
+
 .dog-header-details{
     display: block;
+    
 }
+
+/*text about dogs under the 3 column picture*/
 .dog-details{
     display: block;
-    break-after: div;
+    
+    text-align: left;
     
 }
 
@@ -82,6 +114,7 @@ body{
     width: 100px;
     height: 40px;
     color: #ffffff;
+    vertical-align: top;
 }
 
 

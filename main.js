@@ -1,3 +1,18 @@
+//when user scrolls execute function
+window.onscroll = function() {myFunction()};
+
+var test = document.getElementById("navbar");
+var sticky = test.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+/*
 function myFunction(){
     var x= document.getElementById("dogForm");
     var text = "";
@@ -6,3 +21,4 @@ function myFunction(){
         text += x.elements[i].value + "<br>";
     } document.getElementById("nameChange").innerHTML = text;
 }
+*/

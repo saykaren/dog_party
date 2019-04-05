@@ -3,28 +3,28 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Name That Dog!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
     <script src="main.js"></script>
 </head>
-<nav>
+<nav id="navbar">
     <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDE4LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZH%0D%0AIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5k%0D%0AdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3Lncz%0D%0ALm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsi%0D%0AIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgOTAgNjEyIDYxMiIgZW5hYmxlLWJhY2tncm91%0D%0AbmQ9Im5ldyAwIDkwIDYxMiA2MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxjaXJjbGUg%0D%0Ac3Ryb2tlPSIjRkZGRkZGIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSIzMDYiIGN5PSIzOTYi%0D%0AIHI9IjI5Ni4yIi8+Cgk8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMzA2LDI2NS4xIi8+Cgk8cGF0%0D%0AaCBmaWxsPSIjRkZGRkZGIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tl%0D%0ALW1pdGVybGltaXQ9IjEwIiBkPSJNNTQ5LjEsMzE2LjVjLTEuNy0yMy44LTc2LjktNTkuNS0xMjIu%0D%0ANC04Mi45CgkJYy0zMy42LTE3LTUzLjUsOC4xLTYxLjYsMjIuNWMtMTcuOS02LjQtMzcuOC0xMC4y%0D%0ALTU4LjctMTAuMnMtNDAuOCwzLjgtNTkuMSwxMC4yYy04LjEtMTQuNC0yOC4xLTM5LjUtNjEuNi0y%0D%0AMi41CgkJYy00NS41LDIzLTEyMC43LDU5LjEtMTIyLjQsODIuOWMtMS43LDIzLjgsMjMuOCwxMDEu%0D%0AMSwyMy44LDExMi4ycy0zMSw0Ny4yLDAsNDUuOWMyNS45LTEuMyw3Mi43LTEyLjMsOTAuNS00MS4y%0D%0ACgkJYzQuMiwxNS43LDguMSwzMi4zLDguMSw0Ny4yYzAsNDYuMywyMS43LDgzLjcsNDguNCw4My43%0D%0AYzExLjUsMCwyNy4yLTguNSw0Mi4xLTIxLjdjOC45LDMuOCwxOS4xLDUuOSwyOS44LDUuOXMyMC44%0D%0ALTIuMSwyOS44LTUuOQoJCWMxNC41LDEzLjIsMzAuNiwyMS43LDQyLjEsMjEuN2MyNi44LDAsNDgu%0D%0ANS0zNy40LDQ4LjUtODMuN2MwLTE0LjUsMy44LTMxLDguMS00Ni4zYzE4LjMsMjguNSw2NC42LDM5%0D%0ALjEsOTAuMSw0MC44CgkJYzMxLDEuNywwLTM0LjQsMC00NS45QzUyNC41LDQxNy43LDU1MC44LDMz%0D%0AOS45LDU0OS4xLDMxNi41eiIvPgoJPGc+CgkJPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAw%0D%0AMDAwIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW1pdGVy%0D%0AbGltaXQ9IjEwIiBkPSJNMzQyLjEsNTQyLjYKCQkJYzAsMC0xNS43LTI2LjMtMjgtMzYuMWMtNC43%0D%0ALTMuNC04LjUtMzQuOC04LjUtMzQuOCIvPgoJCTxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAw%0D%0AMDAwMCIgc3Ryb2tlLXdpZHRoPSI3IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1taXRl%0D%0AcmxpbWl0PSIxMCIgZD0iTTI2OS45LDU0Mi42CgkJCWMwLDAsMTUuNy0yNi4zLDI4LTM2LjFjNC43%0D%0ALTMuNCw4LjUtMzQuOCw4LjUtMzQuOCIvPgoJPC9nPgoJPGc+CgkJPHBhdGggZmlsbD0ibm9uZSIg%0D%0Ac3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIg%0D%0Ac3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNNDMzLjUsNDMxLjcKCQkJYzAsMC0xMi44LTIzLjgt%0D%0AMTEuOS0zOS4xYzAuOS0xNS43LTQuMi04Ny4xLTE2LjYtMTE3LjdjLTEyLjMtMzAuNi0yNS45LTEy%0D%0ALjgtMjUuOS0xMi44Ii8+CgkJPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJv%0D%0Aa2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEw%0D%0AIiBkPSJNMTc4LjUsNDMxLjcKCQkJYzAsMCwxMi44LTIzLjgsMTEuOS0zOS4xYy0wLjktMTUuMyw0%0D%0ALjItODcuMSwxNi42LTExNy43YzEyLjMtMzAuNiwyNS45LTEyLjgsMjUuOS0xMi44Ii8+Cgk8L2c+%0D%0ACgk8ZWxsaXBzZSBjeD0iMzA2IiBjeT0iNDQyLjgiIHJ4PSI1My4xIiByeT0iMjUuNSIvPgoJPGc+%0D%0ACgkJPGVsbGlwc2Ugc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZS1taXRl%0D%0AcmxpbWl0PSIxMCIgY3g9IjM3NS4zIiBjeT0iMzg1IiByeD0iOC45IiByeT0iMTQuNSIvPgoJCTxl%0D%0AbGxpcHNlIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbWl0ZXJsaW1p%0D%0AdD0iMTAiIGN4PSIyMzYuNyIgY3k9IjM4NSIgcng9IjguOSIgcnk9IjE0LjUiLz4KCTwvZz4KPC9n%0D%0APgo8L3N2Zz4K" 
     alt="Dog Logo" width= 50px>
-    <div class="nav-container">
-    <a href="">How To Dog</a>
-    <a href="">What Is Dog</a>
-    <a href="">Facts From Dog</a>
+    <div id="navbar" class="nav-container">
+        <a href="">How To Dog</a>
+        <a href="">What Is Dog</a>
+        <a href="">Facts From Dog</a>
     </div>
 </nav>
 <body>
 <figcaption>
     
-        <h1 id="header-text">A Site About <b id="nameChange">Some Dogs</b><br></h1>
+        <div id="header-text">A Site About <b id="nameChange">Some Dogs</b><br></div>
         <img id="dog-hero" src="https://github.com/saykaren/dog_party/blob/master/images/dog1-sq.jpg?raw=true" alt="cute dog picture">
         <form id="dogForm" action="myFuction()">
             <label id="dog_name">Name</label><br>
-            <input type="text" id="name" placeholder="Name This Dog"><br>
+            <input type="text" id="name" placeholder="Name Your Dog"><br>
             <button  id="submit" onclick="myFunction()">Name This Dog</button>
         </form>
     
@@ -35,19 +35,19 @@
             <span class="dog-header-details"><b>How To Dog</b></span><br>
             <img class="sub-dog-pics" src="https://github.com/saykaren/dog_party/blob/master/images/dog2-sq.jpg?raw=true" alt="Dog 2, Supp Dog"></td>
             <span class="dog-details">Dat tungg tho pupperino length boy. borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff<br></span>
-            <button class="dog-button" type="button">How</button><br>
+            <button class="dog-button" type="button">How</button><br><br>
         </div>
         <div class="column">
             <span class="dog-header-details"><b>What Is Dogs</b></span><br>
             <img class="sub-dog-pics" src="https://github.com/saykaren/dog_party/blob/master/images/dog3-sq.jpg?raw=true" alt="Fun dog"></td> 
             <span class="dog-details">Long doggo smol borking doggo with long snoot for pats pupperlno hck heckin angery woofer shoober aqua doggo heck, doggo aqua doggo most angery pupper I have ever seen heckin angery woofer pupper, ruff adorable doggo very hand that feed shibe. Extremely cuuuuuuuuute corgo waggy wags stop it fren.</span>
-            <button class="dog-button" type="button">What</button><br>
+            <button class="dog-button" type="button">What</button><br><br>
         </div>
         <div class="column">
             <span class="dog-header-details"><b>Facts From Dog</b></span><br>
             <img class="sub-dog-pics" src="https://github.com/saykaren/dog_party/blob/master/images/dog4-sq.jpg?raw=true" alt="Cool dog, chill"></td>
             <span class="dog-details">Most angery pupper I have ever seen such treat heck, dat tungg tho. You are doin me a concern shibe such treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.</span>
-            <button class="dog-button" type="button">Facts</button><br>
+            <button class="dog-button" type="button">Facts</button><br><br>
         </div>
     </div>
     
