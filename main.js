@@ -1,3 +1,5 @@
+
+
 //when user scrolls execute function
 window.onscroll = function() {myFunction()};
 
@@ -15,5 +17,5 @@ function myFunction() {
 
 function dogFunction(){
     document.getElementById("nameChange").innerHTML = document.getElementById("name").value;
-    
+
 }
