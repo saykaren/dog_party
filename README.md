@@ -19,6 +19,7 @@
     <li>The basics of CSS I was good at but need work with the navigation and flexbox</li>
     <li>Got more proficient with git and git commands as I am now able to initate and pull items from git itself </li>
     <li>Images and colors are easy for me</li>
+    <li>Javascript function itself was easy</li> 
 </ul>
 <h2>What I learned from project and need to improve upon</h2>
     <ul>
@@ -26,6 +27,8 @@
         <li>Need to work on a better navigation section, master those areas as that took more time than I felt needed to</li>
         <li>Need to understand more details of connecting Javascript to html and how to designate html item to Javascript function<li>
         <li>The abiltity to adjust my website temporarily in Chrome inspector tools</li>
+        <li>Need to learn more about is how to add outside sources or resources to import into website</li>
+        <li>I am unknowledgable on how to actual host my code on a server, next step in the process I need to learn</li>
     </ul>
 
 
