@@ -25,7 +25,7 @@
     <ul>
         <li>I learned I need more experience with CSS code especially with flexbox</li>
         <li>Need to work on a better navigation section, master those areas as that took more time than I felt needed to</li>
-        <li>Need to understand more details of connecting Javascript to html and how to designate html item to Javascript function<li>
+        <li>Need to understand more details of connecting Javascript to html and how to designate html item to Javascript function</li>
         <li>The abiltity to adjust my website temporarily in Chrome inspector tools</li>
         <li>Need to learn more about is how to add outside sources or resources to import into website</li>
         <li>I am unknowledgable on how to actual host my code on a server, next step in the process I need to learn</li>
