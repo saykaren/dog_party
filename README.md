@@ -1,4 +1,4 @@
-Project Title: 
+<h1> Project Title: </h1>
     Dog-Party
 Author: 
     Karen Garcia
