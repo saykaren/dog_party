@@ -2,32 +2,34 @@ nav {
     background-color: #75e2e6;
     position: fixed;
     width: 99%;
+    border-bottom: 2px solid #048eaa;
+}
 
+#dog-logo {
+    padding: .5em;
 }
 
 /*menu items*/ 
-.nav-container{
+.nav-container {
     float: right;
-    padding-top: 15px;
-    overflow: hidden;
-    
-    
+    overflow: hidden; 
+    padding-top: 15px;      
 }
 
 /*menu items anchors */ 
-.nav-container a{
+.nav-container a {
     margin: 10px;
-        }
+}
 
 /*class added to navbar with javascript*/
-.sticky{
+.sticky {
     position: fixed;
     top:0;
     width: 100%;
 }
 
 /*Hero section of website with dog and background*/ 
-figcaption{
+main {
     text-align: center;
     color: #ffffff;
     background-image: url("https://github.com/saykaren/dog_party/blob/master/images/park.jpg?raw=true");
@@ -36,17 +38,18 @@ figcaption{
     background-size: 100% 100%;
     height: 400px;
     padding-top: 100px;
-    }
+}
 
 
 /*A site area*/
-#header-text{
+#header-text {
     font-size: 28px;
     padding-top: 15px;
     text-shadow: 2px 2px #000000;
 }
+
 /*form to put in name along with button*/
-#dogForm{
+#dogForm {
     padding-top: 25px;
 }
 
@@ -57,37 +60,32 @@ figcaption{
     height: 150px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000000;
-
 }
 
-#dog_name{
-    
-}
 /*input field*/
 #name {
     width: 270px;
     height: 30px;
     margin-bottom: 10px;
 }
+
 /*name this dog submit button*/
-#submit{
+#submit {
     background-color: #75e2e6;
     width: 270px;
     height: 30px;
-
 }
+
 body{
     background-color: #ffffff;
-    text-decoration-color: #000000;
-    
+    text-decoration-color: #000000;  
 }
 
 /*flex box container*/
 .parent-flex{
-    
     flex-direction: row;
     height: 100%;
     flex-wrap: nowrap;
@@ -101,41 +99,31 @@ body{
     border-radius: 50%;
     padding: 5px;
 }
-.column{
+
+.column {
     margin-right: 10px;
     margin-left: 10px;
     text-align: center;
-    
-    
 }
 
-.dog-header-details{
+.dog-header-details {
     display: block;
-    
 }
 
 /*text about dogs under the 3 column picture*/
-.dog-details{
+.dog-details {
     display: block;
-    
     text-align: left;
-    
 }
 
 /*button below columns with dog info*/
-.dog-button{
+.dog-button {
     background-color: #048eaa;
     width: 100px;
     height: 40px;
     color: #ffffff;
-    vertical-align: top;
-    
+    vertical-align: top;  
 }
-
-
-
-
-
 
 /*phone size*/
 @media (min-width: 320px) and (max-width: 480px) 
@@ -148,16 +136,19 @@ body{
   }
 
 
-main{
+section {
     background-color: #ffffff;
     column-count: 3;
 }
 
-footer{
+footer {
     background-color: #048eaa;
     color: #ffffff;
     font-size: 16px;
     text-align: center;
     padding: 50px;
-    
+}
+
+footer > img {
+    padding: 15px;
 }

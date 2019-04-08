@@ -16,6 +16,5 @@ function myFunction() {
 
 
 function dogFunction(){
-    document.getElementById("nameChange").innerHTML = document.getElementById("name").value;
-
+     document.getElementById("nameChange").innerHTML = document.getElementById("name").value;
 }
