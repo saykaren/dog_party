@@ -11,7 +11,7 @@ Using html / CSS / Javascript
 
 ## Screen Shots
 Comp is 
-<img src"http://frontend.turing.io/assets/images/dog-party-js-edition.jpg">
+<img src="http://frontend.turing.io/assets/images/dog-party-js-edition.jpg">
 
 ## Features
 If you enter a name into the input field and click the button "Name this dog" the title "A Site About Some Dog" will change the section Some Dog to the name you choose.
