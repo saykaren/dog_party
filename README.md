@@ -1,7 +1,8 @@
-# Name That Dog!
+# Name That Dog
 
 ## Summary
-    Front page website to test out my skills to follow a customer comp and use Javascript. I used a project from Turing School of Software and Design to try and duplicate. 
+    Front page website to test out my skills to follow a customer comp and use Javascript. 
+    I used a project from Turing School of Software and Design to try and duplicate. 
 
 
 ## Code Style 
@@ -21,5 +22,5 @@
 ## Project Initated
     04/03/2019
 ## Acknowledgements
-Thanks to Maire Chew for your help and guidance.<br>
+Thanks to Maire Chew for your help and guidance.
 Thanks to Turing School of Software and Design for this project to work towards.
